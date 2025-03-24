@@ -1,0 +1,6 @@
+127.0.0.1 - - [25/Mar/2025:02:34:07 +0530] "GET /admin HTTP/1.1" 302 199 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0"
+127.0.0.1 - - [25/Mar/2025:02:34:07 +0530] "GET /login HTTP/1.1" 200 2073 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0"
+127.0.0.1 - - [25/Mar/2025:02:34:08 +0530] "GET /favicon.ico HTTP/1.1" 404 1093 "http://localhost:8000/login" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0"
+127.0.0.1 - - [25/Mar/2025:02:34:15 +0530] "POST /login HTTP/1.1" 200 2082 "http://localhost:8000/login" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0"
+127.0.0.1 - - [25/Mar/2025:02:34:26 +0530] "POST /login HTTP/1.1" 302 199 "http://localhost:8000/login" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0"
+127.0.0.1 - - [25/Mar/2025:02:34:26 +0530] "GET /admin HTTP/1.1" 200 5245 "http://localhost:8000/login" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0"

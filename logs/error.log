@@ -1,0 +1,30 @@
+[2025-03-25 02:33:47 +0530] [1130] [INFO] Starting gunicorn 21.2.0
+[2025-03-25 02:33:47 +0530] [1130] [INFO] Listening at: http://0.0.0.0:8000 (1130)
+[2025-03-25 02:33:47 +0530] [1130] [INFO] Using worker: sync
+[2025-03-25 02:33:47 +0530] [1131] [INFO] Booting worker with pid: 1131
+[2025-03-25 02:33:47 +0530] [1132] [INFO] Booting worker with pid: 1132
+[2025-03-25 02:33:47 +0530] [1133] [INFO] Booting worker with pid: 1133
+[2025-03-25 02:33:47 +0530] [1134] [INFO] Booting worker with pid: 1134
+[2025-03-25 02:34:33 +0530] [1130] [INFO] Handling signal: hup
+[2025-03-25 02:34:33 +0530] [1130] [INFO] Hang up: Master
+[2025-03-25 02:34:33 +0530] [1130] [ERROR] Worker (pid:1131) was sent SIGHUP!
+[2025-03-25 02:34:33 +0530] [1130] [ERROR] Worker (pid:1134) was sent SIGHUP!
+[2025-03-25 02:34:33 +0530] [1146] [INFO] Booting worker with pid: 1146
+[2025-03-25 02:34:33 +0530] [1147] [INFO] Booting worker with pid: 1147
+[2025-03-25 02:34:33 +0530] [1148] [INFO] Booting worker with pid: 1148
+[2025-03-25 02:34:33 +0530] [1130] [INFO] Handling signal: hup
+[2025-03-25 02:34:33 +0530] [1149] [INFO] Booting worker with pid: 1149
+[2025-03-25 02:34:33 +0530] [1130] [INFO] Hang up: Master
+[2025-03-25 02:34:33 +0530] [1151] [INFO] Booting worker with pid: 1151
+[2025-03-25 02:34:33 +0530] [1150] [INFO] Booting worker with pid: 1150
+[2025-03-25 02:34:33 +0530] [1152] [INFO] Booting worker with pid: 1152
+[2025-03-25 02:34:33 +0530] [1153] [INFO] Booting worker with pid: 1153
+[2025-03-25 02:34:33 +0530] [1146] [INFO] Worker exiting (pid: 1146)
+[2025-03-25 02:34:33 +0530] [1149] [INFO] Worker exiting (pid: 1149)
+[2025-03-25 02:34:33 +0530] [1148] [INFO] Worker exiting (pid: 1148)
+[2025-03-25 02:34:33 +0530] [1147] [INFO] Worker exiting (pid: 1147)
+[2025-03-25 02:34:33 +0530] [1130] [ERROR] Worker (pid:1146) exited with code 120
+[2025-03-25 02:34:33 +0530] [1130] [ERROR] Worker (pid:1146) exited with code 120.
+[2025-03-25 02:34:33 +0530] [1130] [ERROR] Worker (pid:1148) was sent SIGTERM!
+[2025-03-25 02:34:33 +0530] [1130] [ERROR] Worker (pid:1149) was sent SIGTERM!
+[2025-03-25 02:34:33 +0530] [1130] [ERROR] Worker (pid:1147) was sent SIGTERM!

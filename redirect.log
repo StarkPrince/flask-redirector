@@ -37,3 +37,32 @@
 2025-03-25 00:47:46,177 - INFO - Received request for path: /whatsapp
 2025-03-25 00:47:46,179 - INFO - Found redirect rule: /whatsapp -> https://mithilastack.com/
 2025-03-25 00:47:46,179 - INFO - 127.0.0.1 - - [25/Mar/2025 00:47:46] "[32mGET /whatsapp HTTP/1.1[0m" 302 -
+2025-03-25 02:10:19,184 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-03-25 02:10:19,185 - INFO - [33mPress CTRL+C to quit[0m
+2025-03-25 02:10:19,187 - INFO -  * Restarting with stat
+2025-03-25 02:10:20,114 - WARNING -  * Debugger is active!
+2025-03-25 02:10:20,125 - INFO -  * Debugger PIN: 354-195-501
+2025-03-25 02:10:29,948 - INFO - Received request for path: /
+2025-03-25 02:10:29,973 - INFO - No redirect rule found for path: /
+2025-03-25 02:10:29,991 - INFO - 127.0.0.1 - - [25/Mar/2025 02:10:29] "[33mGET / HTTP/1.1[0m" 404 -
+2025-03-25 02:10:31,713 - INFO - 127.0.0.1 - - [25/Mar/2025 02:10:31] "[32mGET /admin HTTP/1.1[0m" 302 -
+2025-03-25 02:10:32,042 - INFO - 127.0.0.1 - - [25/Mar/2025 02:10:32] "GET /login HTTP/1.1" 200 -
+2025-03-25 02:10:43,814 - INFO - 127.0.0.1 - - [25/Mar/2025 02:10:43] "[32mPOST /login HTTP/1.1[0m" 302 -
+2025-03-25 02:10:44,142 - INFO - 127.0.0.1 - - [25/Mar/2025 02:10:44] "GET /admin HTTP/1.1" 200 -
+2025-03-25 02:12:03,256 - INFO - Received request for path: /whatsapp
+2025-03-25 02:12:03,257 - INFO - Found redirect rule: /whatsapp -> https://mithilastack.com/
+2025-03-25 02:12:03,257 - INFO - 127.0.0.1 - - [25/Mar/2025 02:12:03] "[32mGET /whatsapp HTTP/1.1[0m" 302 -
+2025-03-25 02:13:10,815 - INFO - Received request for path: /whatsapp
+2025-03-25 02:13:10,816 - INFO - Found redirect rule: /whatsapp -> https://mithilastack.com/
+2025-03-25 02:13:10,817 - INFO - 127.0.0.1 - - [25/Mar/2025 02:13:10] "[32mGET /whatsapp HTTP/1.1[0m" 302 -
+2025-03-25 02:28:07,669 - INFO -  * Detected change in 'C:\\Codes\\single-purpose-applications\\flask-redirector\\setup.py', reloading
+2025-03-25 02:28:07,758 - INFO -  * Restarting with stat
+2025-03-25 02:28:08,664 - WARNING -  * Debugger is active!
+2025-03-25 02:28:08,669 - INFO -  * Debugger PIN: 354-195-501
+2025-03-25 02:28:15,769 - INFO -  * Detected change in 'C:\\Codes\\single-purpose-applications\\flask-redirector\\gunicorn.conf.py', reloading
+2025-03-25 02:28:15,862 - INFO -  * Restarting with stat
+2025-03-25 02:28:16,800 - WARNING -  * Debugger is active!
+2025-03-25 02:28:16,805 - INFO -  * Debugger PIN: 354-195-501
+2025-03-25 02:34:08,949 - INFO - Received request for path: /favicon.ico
+2025-03-25 02:34:08,967 - INFO - No redirect rule found for path: /favicon.ico
