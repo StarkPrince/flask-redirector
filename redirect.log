@@ -1,0 +1,39 @@
+2025-03-25 00:45:24,126 - WARNING -  * Debugger is active!
+2025-03-25 00:45:24,133 - INFO -  * Debugger PIN: 354-195-501
+2025-03-25 00:45:36,290 - INFO -  * Detected change in 'C:\\Codes\\single-purpose-applications\\flask-redirector\\app.py', reloading
+2025-03-25 00:45:37,490 - WARNING -  * Debugger is active!
+2025-03-25 00:45:37,494 - INFO -  * Debugger PIN: 354-195-501
+2025-03-25 00:45:57,208 - INFO - 127.0.0.1 - - [25/Mar/2025 00:45:57] "GET /admin HTTP/1.1" 200 -
+2025-03-25 00:45:59,559 - INFO - 127.0.0.1 - - [25/Mar/2025 00:45:59] "[32mGET /logout HTTP/1.1[0m" 302 -
+2025-03-25 00:45:59,578 - INFO - 127.0.0.1 - - [25/Mar/2025 00:45:59] "GET /login HTTP/1.1" 200 -
+2025-03-25 00:46:02,204 - INFO - 127.0.0.1 - - [25/Mar/2025 00:46:02] "[32mPOST /login HTTP/1.1[0m" 302 -
+2025-03-25 00:46:02,223 - INFO - 127.0.0.1 - - [25/Mar/2025 00:46:02] "GET /admin HTTP/1.1" 200 -
+2025-03-25 00:46:09,974 - INFO - Editing redirect rule: /whatsapp -> https://princeraj.info/
+2025-03-25 00:46:09,980 - INFO - 127.0.0.1 - - [25/Mar/2025 00:46:09] "GET /admin/edit/1 HTTP/1.1" 200 -
+2025-03-25 00:46:19,842 - INFO - Editing redirect rule: /whatsapp -> https://princeraj.info/
+2025-03-25 00:46:19,862 - INFO - Updated redirect rule: /whatsapp from https://princeraj.info/ to https://mithilstack.com/
+2025-03-25 00:46:19,864 - INFO - Updating Nginx map with 2 redirect rules
+2025-03-25 00:46:19,866 - DEBUG - Added redirect rule to map: /whatsapp -> https://mithilstack.com/
+2025-03-25 00:46:19,866 - DEBUG - Added redirect rule to map: /whatsapp2 -> https://dconnec.com/
+2025-03-25 00:46:19,870 - WARNING - Nginx reload skipped in development environment
+2025-03-25 00:46:19,871 - INFO - 127.0.0.1 - - [25/Mar/2025 00:46:19] "[32mPOST /admin/edit/1 HTTP/1.1[0m" 302 -
+2025-03-25 00:46:19,889 - INFO - 127.0.0.1 - - [25/Mar/2025 00:46:19] "GET /admin HTTP/1.1" 200 -
+2025-03-25 00:46:33,464 - INFO - Received request for path: /whatsapp2
+2025-03-25 00:46:33,465 - INFO - Found redirect rule: /whatsapp2 -> https://dconnec.com/
+2025-03-25 00:46:33,466 - INFO - 127.0.0.1 - - [25/Mar/2025 00:46:33] "[32mGET /whatsapp2 HTTP/1.1[0m" 302 -
+2025-03-25 00:47:21,476 - INFO - Received request for path: /whatsapp
+2025-03-25 00:47:21,478 - INFO - Found redirect rule: /whatsapp -> https://mithilstack.com/
+2025-03-25 00:47:21,479 - INFO - 127.0.0.1 - - [25/Mar/2025 00:47:21] "[32mGET /whatsapp HTTP/1.1[0m" 302 -
+2025-03-25 00:47:29,422 - INFO - Editing redirect rule: /whatsapp -> https://mithilstack.com/
+2025-03-25 00:47:29,423 - INFO - 127.0.0.1 - - [25/Mar/2025 00:47:29] "GET /admin/edit/1 HTTP/1.1" 200 -
+2025-03-25 00:47:34,047 - INFO - Editing redirect rule: /whatsapp -> https://mithilstack.com/
+2025-03-25 00:47:34,054 - INFO - Updated redirect rule: /whatsapp from https://mithilstack.com/ to https://mithilastack.com/
+2025-03-25 00:47:34,055 - INFO - Updating Nginx map with 2 redirect rules
+2025-03-25 00:47:34,056 - DEBUG - Added redirect rule to map: /whatsapp -> https://mithilastack.com/
+2025-03-25 00:47:34,056 - DEBUG - Added redirect rule to map: /whatsapp2 -> https://dconnec.com/
+2025-03-25 00:47:34,057 - WARNING - Nginx reload skipped in development environment
+2025-03-25 00:47:34,059 - INFO - 127.0.0.1 - - [25/Mar/2025 00:47:34] "[32mPOST /admin/edit/1 HTTP/1.1[0m" 302 -
+2025-03-25 00:47:34,074 - INFO - 127.0.0.1 - - [25/Mar/2025 00:47:34] "GET /admin HTTP/1.1" 200 -
+2025-03-25 00:47:46,177 - INFO - Received request for path: /whatsapp
+2025-03-25 00:47:46,179 - INFO - Found redirect rule: /whatsapp -> https://mithilastack.com/
+2025-03-25 00:47:46,179 - INFO - 127.0.0.1 - - [25/Mar/2025 00:47:46] "[32mGET /whatsapp HTTP/1.1[0m" 302 -
