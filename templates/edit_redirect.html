@@ -1,0 +1,25 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<h2>Edit Redirect</h2>
+<div class="card">
+    <div class="card-body">
+        <form method="post">
+            <div class="mb-3">
+                <label for="original_path" class="form-label">Original Path</label>
+                <input type="text" class="form-control" id="original_path" name="original_path" value="{{ redirect.original_path }}" required>
+                <div class="form-text">The path to redirect from (e.g., /old-page).</div>
+            </div>
+            <div class="mb-3">
+                <label for="target_url" class="form-label">Target URL</label>
+                <input type="url" class="form-control" id="target_url" name="target_url" value="{{ redirect.target_url }}" required>
+                <div class="form-text">The full URL to redirect to (e.g., https://example.com/new-page).</div>
+            </div>
+            <div class="d-flex">
+                <button type="submit" class="btn btn-primary me-2">Save Changes</button>
+                <a href="{{ url_for('admin_dashboard') }}" class="btn btn-secondary">Cancel</a>
+            </div>
+        </form>
+    </div>
+</div>
+{% endblock %}
